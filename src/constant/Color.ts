@@ -9,6 +9,7 @@ interface Colors {
   Orange: string;
   Cultured: string;
   DavysGray: string;
+  LightGray: string;
 }
 
 export const ColorsTemplate: Colors = {
@@ -22,4 +23,5 @@ export const ColorsTemplate: Colors = {
   Orange: '#F99026',
   Cultured: '#F7F7FA',
   DavysGray: '#5E5E60',
+  LightGray: '#C4C4C4',
 };

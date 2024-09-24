@@ -71,6 +71,9 @@ import Tips from './src/menu/TipsAndInfo/Tips.tsx';
 import UnsafeSports from './src/menu/TipsAndInfo/UnsafeSports.tsx';
 import MarkOnMap from './src/menu/TipsAndInfo/MarkOnMap.tsx';
 import ContactPublicMetro from './src/menu/TipsAndInfo/ContactPublicMetro.tsx';
+import Setting from './src/menu/Setting/Setting.tsx';
+import CookiePolicy from './src/menu/Setting/CookiePolicy.tsx';
+import PrivacyPolicy from './src/menu/Setting/PrivacyPolicy.tsx';
 
 const Stack = createNativeStackNavigator();
 function App(): React.JSX.Element {
@@ -168,6 +171,9 @@ function App(): React.JSX.Element {
           <Stack.Screen name="UnsafeStops" component={UnsafeSports} />
           <Stack.Screen name="MarkOnMap" component={MarkOnMap} />
           <Stack.Screen name="ContactPublicMetro" component={ContactPublicMetro} />
+          <Stack.Screen name="Setting" component={Setting} />
+          <Stack.Screen name="CookiePolicy" component={CookiePolicy} />
+          <Stack.Screen name="PrivacyPolicy" component={PrivacyPolicy} />
 
         </Stack.Navigator>
       </NavigationContainer>

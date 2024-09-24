@@ -24,7 +24,36 @@ const UnsafeSports = () => {
                 }}
             >
                 <View>
-
+                    <Image
+                        style={{
+                            width: 100,
+                            height: 100,
+                            objectFit: 'contain',
+                            position: 'absolute',
+                            top: 60,
+                            left: '35%',
+                        }}
+                        source={require('../../assets/My_Location.png')} />
+                    <Image
+                        style={{
+                            width: 60,
+                            height: 60,
+                            objectFit: 'contain',
+                            position: 'absolute',
+                            top: 180,
+                            left: '65%',
+                        }}
+                        source={require('../../assets/UnSafeStops.png')} />
+                    <Image
+                        style={{
+                            width: 60,
+                            height: 60,
+                            objectFit: 'contain',
+                            position: 'absolute',
+                            top: 40,
+                            left: '15%',
+                        }}
+                        source={require('../../assets/UnSafeStops.png')} />
                 </View>
                 <View
                     style={{

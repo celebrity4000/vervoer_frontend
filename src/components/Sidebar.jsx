@@ -22,7 +22,7 @@ const data = [
     icon: 'money-check-alt',
   },
   {id: 5, screen: 'Tips', title: 'Tips & Info', icon: 'lightbulb'},
-  {id: 6, screen: 'LandingPage', title: 'Settings', icon: 'mail-bulk'},
+  {id: 6, screen: 'Setting', title: 'Settings', icon: 'mail-bulk'},
   {id: 7, screen: 'ContactUs', title: 'Contuct Us', icon: 'mail-bulk'},
   {
     id: 8,
