@@ -92,7 +92,7 @@ const Login = () => {
               <Text
                 style={{
                   color: '#FF9401',
-                  fontWeight: 600,
+                  fontWeight: '600',
                   textAlign: 'center',
                   fontSize: 16,
                 }}>
