@@ -123,7 +123,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderBottomWidth: 1,
     borderColor: '#dff',
-    borderColor: '#666',
+    // borderColor: '#666',
     height: 50,
   },
   card: {

@@ -21,7 +21,7 @@ const OTPField = () => {
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'row',
-        justifyContent: 'space-around',
+        // justifyContent: 'space-around',
         width: '80%',
         paddingVertical: 50,
       }}>

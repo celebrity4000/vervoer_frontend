@@ -66,7 +66,7 @@ import WithdrawSummary from './src/menu/Wallet/WithdrawSummary.jsx';
 import WithdrawSuccess from './src/menu/Wallet/WithdrawSuccess.jsx';
 import AddFairCard from './src/menu/Farecard/AddFairCard.jsx';
 import AddCard from './src/menu/Wallet/AddCard.jsx';
-import { StatusBar } from 'react-native';
+import { StatusBar, Text } from 'react-native';
 import Tips from './src/menu/TipsAndInfo/Tips.tsx';
 import UnsafeSports from './src/menu/TipsAndInfo/UnsafeSports.tsx';
 import MarkOnMap from './src/menu/TipsAndInfo/MarkOnMap.tsx';

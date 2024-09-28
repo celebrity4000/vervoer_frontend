@@ -249,7 +249,7 @@ const styles = StyleSheet.create({
     paddingVertical: 12,
     borderRadius: 35,
     flexDirection: 'row',
-    alignItems: 'center',
+    // alignItems: 'center',
     gap: 10,
   },
   optionSelected: {

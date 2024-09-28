@@ -8,6 +8,7 @@ export const UserProfileContext = ({children}) => {
     <ProfileContext.Provider value={{show, setShow, profilePic, setProfilePic}}>
       {children}
     </ProfileContext.Provider>
+    
   );
 };
 export default UserProfileContext;
