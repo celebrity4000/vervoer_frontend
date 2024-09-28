@@ -23,10 +23,10 @@ import BookParking from './src/userHome/Parking/BookParking.tsx';
 import AddParkingLocation from './src/userHome/Parking/AddParkingLocation.tsx';
 import PickParking from './src/userHome/Parking/PickParking.tsx';
 import ParkingDetail from './src/userHome/Parking/ParkingDetail.tsx';
-import ParkingSlot from './src/userHome/Parking/ParkingSlot.tsx';
+// import ParkingSlot from './src/userHome/Parking/ParkingSlot.tsx';
 import RideHistory from './src/userHome/History/RideHistory.tsx';
 import LiveSession from './src/userHome/LiveSession/LiveSession.tsx';
-import SessionSummary from './src/userHome/LiveSession/SessionSummary.tsx';
+// import SessionSummary from './src/userHome/LiveSession/SessionSummary.tsx';
 import EndSession from './src/userHome/LiveSession/EndSession.tsx';
 import LocateDryCleaning from './src/DriverHome/LocateDryCleaning.tsx';
 import LandingPage from './src/auth/LandingPage.tsx';
@@ -51,7 +51,7 @@ import ResetPassword from './src/menu/ResetPassword/ResetPassword.tsx';
 import SearchPage from './src/menu/Search/Search.tsx';
 import Wallet from './src/menu/Wallet/Wallet.tsx';
 import NotificationPage from './src/menu/Notification/NotificationPage.tsx';
-import HistoryDetail from './src/menu/Wallet/HistoryDetail.js';
+// import HistoryDetail from './src/menu/Wallet/HistoryDetail.js';
 import Deposit from './src/menu/Wallet/Deposit.tsx';
 import SelectMethod from './src/menu/Wallet/SelectMethod.tsx';
 import Withdraw from './src/menu/Wallet/Withdraw.tsx';
@@ -74,9 +74,12 @@ import ContactPublicMetro from './src/menu/TipsAndInfo/ContactPublicMetro.tsx';
 import Setting from './src/menu/Setting/Setting.tsx';
 import CookiePolicy from './src/menu/Setting/CookiePolicy.tsx';
 import PrivacyPolicy from './src/menu/Setting/PrivacyPolicy.tsx';
+import ParkingSlot from './src/userHome/Parking/ParkingSlot.jsx';
+import SessionSummary from './src/userHome/LiveSession/SessionSummary.tsx';
+import HistoryDetail from './src/menu/Wallet/HistoryDetail.tsx';
 
 const Stack = createNativeStackNavigator();
-function App(): React.tsx.Element {
+function App(): React.JSX.Element {
   return (
     <UserProfileContext>
       <NavigationContainer>
